@@ -1,1 +1,1 @@
-minecraft: java -jar server.jar --nogui
+clock: python clock.py
