@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* HelloWorld
+minecraft:    java -Xmx512M -Xms512M -jar server.jar nogui
