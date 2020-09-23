@@ -1,1 +1,1 @@
-minecraft: java -jar server.jar --nogui
+web: java -jar server.jar --nogui
