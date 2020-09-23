@@ -16,7 +16,7 @@ def timed_job():
     today = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(today, 'This job is run every day twenty minutes.')
 
-@sched.scheduled_job('cron', day_of_week='0-6', hour=23, minute=59, second=59)
+@sched.scheduled_job('cron', day_of_week='0-6', hour=23, minute=59, second=20)
 def work_in_shifts():
 	# wake anther app before sleep
     url = "https://van-linebot.herokuapp.com/"
